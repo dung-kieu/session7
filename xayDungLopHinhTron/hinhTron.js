@@ -1,0 +1,19 @@
+let MyCircle = function (radius) {
+    this.radius = radius;
+
+this.getRadius=function () {
+    return radius;
+};
+this.getArea = function () {
+    return Math.PI*radius*radius;
+};
+
+};
+
+let circle = new MyCircle(2);
+
+let radius = circle.getRadius();
+
+let area = circle.getArea();
+
+alert("radius :" + radius + " ; area :" + area);
