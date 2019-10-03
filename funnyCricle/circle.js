@@ -27,5 +27,11 @@ function createCircle( ) {
     ctx.fillStyle = color;
     ctx.fill();
 }
-createCircle();
-createCircle();
+
+function createMultipleCircle(){
+    for(let i = 0; i < 30; i++){
+        createCircle();
+    }
+}
+
+createMultipleCircle();
