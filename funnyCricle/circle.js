@@ -28,3 +28,4 @@ function createCircle( ) {
     ctx.fill();
 }
 createCircle();
+createCircle();
